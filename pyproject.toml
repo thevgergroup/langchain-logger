@@ -4,7 +4,16 @@ version = "0.0.0"
 description = "A Chain of Thought logger for langchain"
 authors = ["patrick o'leary <pjaol@pjaol.com>"]
 readme = "README.md"
-
+license = "MIT"
+homepage = "https://github.com/thevgergroup/langchain-logger"
+repository = "https://github.com/thevgergroup/langchain-logger.git"
+documentation = "https://github.com/thevgergroup/langchain-logger"
+keywords = ["langchain", "logger", "chain of thought", "AI", "GenAI"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: System :: Logging",
+    ]
 [tool.poetry.dependencies]
 python = "^3.11"
 langchain = "^0.1.12"
