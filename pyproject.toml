@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "langchain-logger"
+version = "0.0.0"
+description = "A Chain of Thought logger for langchain"
+authors = ["patrick o'leary <pjaol@pjaol.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.1.12"
+langchain-core = "^0.1.31"
+
+
+[tool.poetry.group.dev.dependencies]
+langchain-openai = "^0.0.8"
+
+
+[tool.poetry-dynamic-versioning]
+enable = true
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
